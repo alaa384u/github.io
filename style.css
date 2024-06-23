@@ -1,0 +1,250 @@
+@font-face {
+    font-family: klav-bold;
+    src: url(klavika-bold.otf);
+}
+@font-face {
+    font-family: roboto-light;
+    src: url(Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: text;
+    src: url(Poppins-Light.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 920px;
+}
+body{
+    background-color: black;
+}
+
+
+header {
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-image: url(yusuf-yassir-SoLZCj0W1Ss-unsplash-min.jpg);
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 538px;
+}
+.header-h1 {
+    width: 70%;
+    color: whitesmoke;
+    font-family: klav-bold;
+    line-height: 30px;
+    font-size: 2.5rem;
+}
+.header-p {
+    width: 70%;
+    margin: 10px 0;
+    color: white;
+    font-family: roboto-light;
+    line-height: 19px;
+    font-size: 1.25rem;
+    background-color: rgba(0, 0, 0, 0.126);
+    padding: 5px;
+}
+.header-sudan {
+    color: orange;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.kh{
+    width: 90%;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    margin: 10px auto 10px;
+}
+
+.blank-1 {
+    background-color: black;
+    padding: 20px 0;
+    color: white;
+    font-family: roboto-light;
+}
+.sudan-map-heading{
+    font-size: 2.25rem;
+}
+.section-1 {
+    padding: 50px 0;
+    
+}
+.section1-h1 {
+    margin: 20px 0;
+    text-align: center;
+    font-family: klav-bold;
+    color: orange;
+}
+.section1-p {
+    margin: 0 auto;
+    width: 85%;
+    padding: 5px;
+    color: white;
+    font-family: roboto-light;
+    line-height: 2rem;
+    font-size: 1.35rem;
+    background-color: rgba(0, 0, 0, 0.01267);
+}
+
+.sudan-ul {
+    list-style-type: none;
+}
+
+.sudan-li {
+    padding: 5px 0;
+    font-family: klav-bold;
+    font-size: 1.25rem;
+}
+
+.or {
+    color: orange;
+}
+
+.b1-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.sudan-map{
+    min-width: 192px;
+    min-height: 192px;
+    max-height: 356px;
+    max-width: 356px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    
+}
+
+.b2-img{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.bbc{
+    font-family: klav-bold;
+    color: white;
+}
+
+.blank-2{
+    background-color: #ffffff;
+    padding: 15px 0;
+    margin: 10px 0;
+    
+}
+
+.bbc-logo{
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+    
+}
+.s-h3{
+    margin: 19px 0 3px 0;
+    font-size: 1.8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.s-h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2,2rem;
+}
+.s-p{
+    font-family: text;
+    font-size: 1.25rem;
+    margin: 5px 0;
+}
+.sec-btw{
+    background-color: #ffffff;
+    padding: 12px 0;
+}
+.note-h2{
+    font-family: klav-bold;
+}
+.note{
+    font-family: text;
+}
+
+@media (max-width: 425px) {
+    .container{
+        width: 95%;
+    }
+    .header-h1 {
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .header-p {
+        width: 100%;
+        font-size: 1rem;
+        font-family: roboto-light;
+    }
+
+    .section1-p {
+        width: 100%;
+        font-size: 1.25rem;
+
+    }
+
+    .sudan-map-heading {
+        font-size: 1.5rem;
+    }
+
+    .sudan-li {
+        font-size: 1rem;
+    }
+    .b1-box-ul{
+        flex-direction: column;
+        padding: 0 20px;
+        
+    }
+}
+
+@media (max-width: 767px) {
+    header {
+        background-position: center;
+    }
+    .header-top-h1 {
+        width: 80%;
+        font-size: 2rem;
+    }
+    .header-top-p {
+        width: 80%;
+        font-size: 1rem;
+        font-family: roboto-light;
+    }
+    .section1-p {
+        font-size: 1.25rem;
+        line-height: 1.55rem;
+    }
+    .b1-box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sudan-map{
+        width: 128px;
+        height: 128px;
+    }
+    .b1-box-ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .f{
+        width: 100%;
+    }
+}    
+
